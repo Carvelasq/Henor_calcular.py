@@ -4,9 +4,6 @@ Descripción:
     Este programa permite calcular el precio final de un producto después
     de aplicarle un descuento. El usuario ingresa el precio y el porcentaje,
     y el sistema realiza el cálculo de forma clara y amigable.
-
-Autor: [Tu nombre]
-Fecha: 2025
 """
 
 
@@ -36,6 +33,15 @@ def calcular_precio_con_descuento(precio_original, porcentaje_descuento):
 
 
 # EJECUCIÓN PRINCIPAL DEL PROGRAMA 
+Los nombres de variables y funciones son claros y descriptivos --- Cumple
+Hay una docstring o comentario inicial que explica el propósito --- Cumple                       
+Los comentarios son útiles (no redundantes ni excesivos) --- cumple
+La sangría y el espaciado son consistentes --- Cumple  
+El código está bien estructurado (bloques lógicos, sin líneas inútiles) --- Cumple                
+Se aplica la guía de estilo acordada --- Cumple  
+
+Bien Henor esta elegante. 
+ATT Jean Julio
 
 if __name__ == "__main__":
     print("  ")
@@ -72,3 +78,4 @@ if __name__ == "__main__":
         # Se muestra un mensaje claro en caso de error.
         print(f"\n Ocurrió un error: {error}")
         print("Por favor ingresa valores numéricos válidos.\n")
+
